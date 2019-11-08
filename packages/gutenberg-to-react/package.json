@@ -15,8 +15,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --coverage --verbose --detectOpenHandles",
-    "build": "./node_modules/@threemammals/scripts/build.sh"
+    "test": "jest --coverage --verbose --detectOpenHandles"
   },
   "dependencies": {
     "@threemammals/scripts": "^0.0.3",
