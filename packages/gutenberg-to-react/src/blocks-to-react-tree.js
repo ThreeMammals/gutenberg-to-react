@@ -1,5 +1,5 @@
 const { parseShortCode } = require('./parse-shortcode');
-const { innerContentToReactTree } = require('../src/html-to-react-tree');
+const { innerContentToReactTree } = require('./html-to-react-tree');
 const { parseInlineStyles } = require('./html-style-parser');
 
 // eslint-disable-next-line no-extend-native

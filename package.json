@@ -1,11 +1,11 @@
 {
   "name": "root",
-  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "./packages/scripts/setup-npmrc.sh && ./packages/scripts/build.sh && ./packages/scripts/teardown-npmrc.sh",
     "lerna": "lerna run",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.4.0"
