@@ -23,4 +23,13 @@ const result = gutenbergToReact(input);
 
 // check out your ReactJs tree?!?!?
 console.log(result);
+
+[
+  {
+    type: 'core/paragraph',
+    ref: null,
+    '$$typeof': Symbol(react.element),
+    props: { style: {}, className: null, children: [Array] }
+  }
+]
 ```
