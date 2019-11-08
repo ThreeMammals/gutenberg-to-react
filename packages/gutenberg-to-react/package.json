@@ -1,7 +1,7 @@
 {
   "name": "@threemammals/gutenberg-to-react",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Parse gutenberg post_content to a React tree",
   "author": "Tom Pallister <tom@threemammals.com>",
   "homepage": "https://threemammals.com",

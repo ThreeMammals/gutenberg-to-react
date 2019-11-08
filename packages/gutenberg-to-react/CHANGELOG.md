@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/ThreeMammals/gutenberg-to-react/compare/@threemammals/gutenberg-to-react@0.0.7...@threemammals/gutenberg-to-react@0.0.8) (2019-11-08)
+
+**Note:** Version bump only for package @threemammals/gutenberg-to-react
+
+
+
+
+
 ## [0.0.7](https://github.com/ThreeMammals/gutenberg-to-react/compare/@threemammals/gutenberg-to-react@0.0.6...@threemammals/gutenberg-to-react@0.0.7) (2019-11-08)
 
 **Note:** Version bump only for package @threemammals/gutenberg-to-react
