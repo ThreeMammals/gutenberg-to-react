@@ -15,11 +15,13 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --coverage --verbose --detectOpenHandles"
+	"test": "jest --coverage --verbose --detectOpenHandles",
+	"build": "./node_modules/@threemammals/scripts/build.sh"
   },
   "dependencies": {
     "@wordpress/block-serialization-default-parser": "^3.1.0",
-    "cheerio": "^1.0.0-rc.3"
+	"cheerio": "^1.0.0-rc.3",
+	"@threemammals/scripts": "^0.0.1"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
