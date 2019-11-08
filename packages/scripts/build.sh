@@ -7,5 +7,5 @@ git config --global user.email "tom@threemammals.com"
 git config --global user.name "TomPallister"
 
 npm install
-npm run bootstrap
-npm run publish
+lerna bootstrap
+lerna publish --conventional-commits --changelog-preset angular --yes
