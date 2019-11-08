@@ -1,5 +1,6 @@
 {
   "name": "@threemammals/gutenberg-to-react",
+  "private": false,
   "version": "0.0.4",
   "description": "Parse gutenberg post_content to a React tree",
   "author": "Tom Pallister <tom@threemammals.com>",
@@ -31,5 +32,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "jest": "^24.7.1"
-  }
+  },
+  "gitHead": "03e500773a5af30f009c3424862237db63a36c42"
 }
