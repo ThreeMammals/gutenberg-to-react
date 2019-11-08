@@ -1,0 +1,29 @@
+version: 2.1
+
+executors:
+  base:
+    docker:
+      - image: mijitt0m/nuk-api-gateway-build:0.0.5
+jobs:
+  build:
+    executor: base
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "7a:85:2e:b8:8f:b3:41:44:9d:aa:a3:45:77:a0:17:c5"
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+      - run: npm run build
+      - save_cache:
+          paths:
+            - node_modules
+            - packages/**/node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
