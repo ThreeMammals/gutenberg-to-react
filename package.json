@@ -3,8 +3,7 @@
   "scripts": {
     "build": "./packages/scripts/build.sh",
     "lerna": "lerna run",
-    "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish"
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^3.4.0"
