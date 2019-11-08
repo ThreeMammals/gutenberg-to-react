@@ -1,6 +1,6 @@
 {
   "name": "@threemammals/gutenberg-to-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse gutenberg post_content to a React tree",
   "author": "Tom Pallister <tom@threemammals.com>",
   "homepage": "https://threemammals.com",
@@ -19,7 +19,7 @@
     "build": "./node_modules/@threemammals/scripts/build.sh"
   },
   "dependencies": {
-    "@threemammals/scripts": "^0.0.2",
+    "@threemammals/scripts": "^0.0.3",
     "@wordpress/block-serialization-default-parser": "^3.1.0",
     "cheerio": "^1.0.0-rc.3"
   },
