@@ -15,7 +15,9 @@ master_branch=master
 
 if [ $branch != $master_branch ]
 then
+    echo "PR PUBLISH"
     lerna publish --canary --conventional-commits --changelog-preset angular --yes
 else
+    echo "MASTER PUBLISH"
     lerna publish --conventional-commits --changelog-preset angular --yes
 fi
