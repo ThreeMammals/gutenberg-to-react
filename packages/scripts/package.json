@@ -8,5 +8,6 @@
   "license": "MIT",
   "scripts": {
     "publish": "exit 0"
-  }
+  },
+  "gitHead": "5ba40b89abddfe4989c511a0b8ca02c175fba897"
 }
