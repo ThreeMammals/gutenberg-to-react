@@ -1,6 +1,7 @@
 {
   "name": "root",
-  "private": false,
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
     "build": "./packages/scripts/setup-npmrc.sh && ./packages/scripts/build.sh && ./packages/scripts/teardown-npmrc.sh",
     "lerna": "lerna run",
