@@ -1,5 +1,6 @@
 {
   "name": "@threemammals/scripts",
+  "private": false,
   "version": "0.0.3",
   "description": "",
   "author": "Tom Pallister <tom@threemammals.com>",
