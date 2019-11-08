@@ -1,12 +1,12 @@
 {
-    "name": "root",
-    "private": false,
-    "scripts": {
-      "build": "./packages/scripts/setup-npmrc.sh && ./packages/scripts/build.sh && ./packages/scripts/teardown-npmrc.sh",
-      "lerna": "lerna run",
-      "bootstrap": "lerna bootstrap"
-    },
-    "devDependencies": {
-      "lerna": "^3.4.0"
-    }
+  "name": "root",
+  "private": false,
+  "scripts": {
+    "build": "./packages/scripts/setup-npmrc.sh && ./packages/scripts/build.sh && ./packages/scripts/teardown-npmrc.sh",
+    "lerna": "lerna run",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.0"
   }
+}

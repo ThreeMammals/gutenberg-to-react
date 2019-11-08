@@ -1,0 +1,11 @@
+{
+  "name": "@threemammals/scripts",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Tom Pallister <tom@threemammals.com>",
+  "homepage": "https://threemammals.com",
+  "license": "MIT",
+  "scripts": {
+    "publish": "exit 0"
+  }
+}
