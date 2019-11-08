@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "scripts": {
     "build": "./packages/scripts/setup-npmrc.sh && ./packages/scripts/build.sh && ./packages/scripts/teardown-npmrc.sh",
     "lerna": "lerna run",
