@@ -6,7 +6,7 @@ This package allows you to convert Wordpress Gutenbergs post_content field on th
 
 ## Why
 
-Madess.
+Madness.
 
 ## Install
 
