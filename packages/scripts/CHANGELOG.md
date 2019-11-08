@@ -5,4 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2019-11-08)
 
-**Note:** Version bump only for package @threemammals/gutenberg-to-react
+**Note:** Version bump only for package @threemammals/scripts
