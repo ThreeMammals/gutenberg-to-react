@@ -8,4 +8,5 @@ git config --global user.name "TomPallister"
 
 npm install
 lerna bootstrap
+lerna run test --stream
 lerna publish --conventional-commits --changelog-preset angular --yes
