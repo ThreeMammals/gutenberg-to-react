@@ -1,34 +1,12 @@
 {
-  "name": "@threemammals/gutenberg-to-react",
-  "version": "0.0.1",
-  "description": "Parse gutenberg post_content to a React tree",
-  "author": "Tom Pallister <tom@threemammals.com>",
-  "homepage": "https://threemammals.com",
-  "license": "MIT",
-  "main": "src/index.js",
-  "directories": {
-    "src": "src",
-    "test": "tests"
-  },
-  "files": [
-    "src"
-  ],
-  "scripts": {
-    "lint": "eslint .",
-    "test": "jest --coverage --verbose --detectOpenHandles"
-  },
-  "dependencies": {
-    "@wordpress/block-serialization-default-parser": "^3.1.0",
-    "cheerio": "^1.0.0-rc.3"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^22.4.1",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "jest": "^24.7.1"
+    "name": "root",
+    "private": false,
+    "scripts": {
+      "build": "./packages/scripts/setup-npmrc.sh && ./packages/scripts/build.sh && ./packages/scripts/teardown-npmrc.sh",
+      "lerna": "lerna run",
+      "bootstrap": "lerna bootstrap"
+    },
+    "devDependencies": {
+      "lerna": "^3.4.0"
+    }
   }
-}
