@@ -9,4 +9,14 @@ git config --global user.name "TomPallister"
 npm install
 lerna bootstrap
 lerna run test --stream
-lerna publish --conventional-commits --changelog-preset angular --yes
+
+branch=$(git symbolic-ref --short -q HEAD)
+master_branch=master
+
+if [ $branch != $master_branch ]
+then
+    COMMIT=$(git rev-parse HEAD)
+    lerna publish prepatch --preid $COMMIT --conventional-commits --no-changelog --no-git-tag-version --yes
+else
+    lerna publish --conventional-commits --changelog-preset angular --yes
+fi
